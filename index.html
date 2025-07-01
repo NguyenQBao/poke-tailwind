@@ -18,10 +18,10 @@
       <p class="text-center text-[17px] py-5 font-semibold">Welcome to the Ultimate Pokémon café</p>
     </div>
     <!-- Header -->
-    <div class="flex justify-between bg-[#002E33] items-center sticky z-3 relative top-0"> 
+    <div class="flex max-sm:flex-col justify-between bg-[#002E33] items-center sticky z-3 relative top-0"> 
         <div class="flex ml-5">
             <img class="w-18 h-13 mt-4" src="pikachu.png" alt="icon-app">
-            <p class="font-bold text-3xl py-5 text-white">Pokémon café</p>
+            <p class="max-sm:text-xl font-bold text-3xl py-5 text-white">Pokémon café</p>
         </div>
         <nav class="max-lg:hidden lg:block">
             <ul class="text-white flex gap-12 text-[17px] ml-[90px]">
@@ -42,15 +42,15 @@
                 </li>
             </ul>
         </nav>
-        <div class="mr-40">
+        <div class="max-sm:mr-[0px] max-sm:mt-[-40px] mr-40">
             <button class="bg-[#A3DC2F] max-lg:py-2 max-lg:py-4 max-lg:px-5 max-lg:mr-[-90px] lg:mr-[30px] md:px-9 rounded-full m-8 max-lg:text-[12px] md:text-[14px] lg:text-[16px]" >Reserve Now</button>
         </div>
         <div class="lg:hidden max-lg:block">
-            <img class="w-[60px] h-[50px] mr-[20px] cursor-pointer" src="menubutton.png" alt="icon-app">
+            <img class="max-sm:hidden w-[60px] h-[50px] mr-[20px] cursor-pointer" src="menubutton.png" alt="icon-app">
         </div>
     </div>
     <div class="flex bg-[#FFC453] pb-[106px] justify-between max-xl:flex-col xl:flex-row sm:items-center">
-        <div class="pt-36">
+        <div class="pt-36 max-sm:mt-[-90px]">
             <button class="flex items-center bg-[#A3DC2F] rounded-full p-1  ml-13">
                 <div>
                     <img class="w-18 h-13" src="pikachu.png" alt="icon-app">
@@ -58,7 +58,7 @@
                 <a class="font-bold mr-4 ml-[-10px]" href="#">Best café</a>
             </button>
             <div class="ml-[55px] mt-8">
-                <h1 class="text-[55px] font-bold leading-[60px]">
+                <h1 class="max-sm:text-[40px] text-[55px] font-bold leading-[60px]">
                     Discover Your Perfect<br> Pokémon Companion <br> Here
                 </h1>
             </div>
@@ -67,9 +67,9 @@
                     At Pokémon café, indulge in a unique dining experience surrounded by<br> your favorite Pokémon. Enjoy thematic meals, interact with Pokémon,<br> and immerse yourself in a world of wonder. Be inspired, relax, and dive<br> into a world where your culinary dreams meet reality.
                 </p>
             </div>
-            <div class="flex bg-[#D9D9D9] rounded-full w-[630px] py-2.5 px-7 justify-between mt-10.25 ml-[44px]">
+            <div class="max-sm:w-[305px] max-sm:ml-[0px] flex bg-[#D9D9D9] rounded-full w-[630px] py-2.5 px-7 justify-between mt-10.25 ml-[44px]">
                 <input type="type" placeholder="Enter your email">
-                <button class="bg-[#002E33] rounded-full text-white h-68px py-5 px-7 mr-[-18px]">
+                <button class="max-sm:ml-[-40px] bg-[#002E33] rounded-full text-white h-68px py-5 px-7 mr-[-18px]">
                     Reserve now
                 </button>
             </div>
@@ -85,10 +85,10 @@
             </div>
             <div class="">
                 <div class="pl-[-264px]">
-                    <img class="w-[168px] h-[159px] mt-[-590px] ml-[166px]" src="pic3.png" alt="icon-app">
+                    <img class="max-sm:ml-[80px] w-[168px] h-[159px] mt-[-590px] ml-[166px]" src="pic3.png" alt="icon-app">
                 </div>
                 <div class="">
-                    <img class="w-[260px] h-[153px] mt-[236px] ml-[236px]" src="pic4.png" alt="icon-app">
+                    <img class="max-sm:ml-[50px] w-[260px] h-[153px] mt-[236px] ml-[236px]" src="pic4.png" alt="icon-app">
                 </div>
             </div>    
         </div>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="sm:w-[150px] sm:h-[150px] sm:ml-[556px] md:w-[230px] md:h-[230px] bg-[#002E33] rounded-full md:ml-[636px] mt-[202px]">
                 </div>
-                <div class="ml-[87px] mt-[-570px] max-sm:mt-[250px]">
+                <div class="ml-[87px] mt-[-570px] max-sm:mt-[-100px] max-sm:ml-[-0px]">
                     <img class="sm:w-[580px] sm:h-[380px] md:w-[706px] md:h-[460px] sm:mt-[120px] md:mt-[-120px] sm: rounded-[43px] shadow-2xl" src="pic5.jpg" alt="icon-app">
                 </div>
                 
@@ -115,8 +115,8 @@
             </div>   
         </div>
         <div class="max-sm:h-[270px] flex flex-col items-center xl:w-[988px] xl:h-[346px] max-xl:w-70% max-xl:h-[200px] bg-[#FFA41C] max-xl:ml-[80px] max-xl:mr-[80px] rounded-[33px] max-xl:mt-[100px] xl:ml-[260px] xl:mt-[197px] shadow-2xl ">
-            <h class="xl:text-[96px] max-xl:text-[45px] font-black text-[#153B0A]">Meet the Staff!</h>
-            <p class="align-middle text-center xl:text-[27.2px] max-xl:text-[15px] xl:leading-[31.28px]">When you open your café, Eevee will be the first Pokémon <br>on your staff. Continue solving puzzles to create delightful <br>Pokémon-themed café offerings that are almost too <br>adorable to eat or drink, and you’ll soon have more <br>Pokémon joining your staff!</p>
+            <h class="max-sm:text-[30px] xl:text-[96px] max-xl:text-[45px] font-black text-[#153B0A]">Meet the Staff!</h>
+            <p class="max-sm:text-[10px] align-middle text-center xl:text-[27.2px] max-xl:text-[15px] xl:leading-[31.28px]">When you open your café, Eevee will be the first Pokémon <br>on your staff. Continue solving puzzles to create delightful <br>Pokémon-themed café offerings that are almost too <br>adorable to eat or drink, and you’ll soon have more <br>Pokémon joining your staff!</p>
         </div>
         <div class="">
             <div class="flex ml-[351px] items-center gap-20 max-xl:mr-[150px]">
@@ -147,7 +147,7 @@
                 <a class="font-bold mr-4 ml-[-10px]" href="#">Best café</a>
         </button>
         <div class="flex justify-between mt-[60px]">
-            <div class="w-[400px] h-[610px] bg-[#FFB82F] rounded-[170px] z-2 position ml-[35px] flex items-center flex-col shadow-2xl/30">
+            <div class="max-sm:ml-[0px] w-[400px] h-[610px] bg-[#FFB82F] rounded-[170px] z-2 position ml-[35px] flex items-center flex-col shadow-2xl/30">
                 <div class="">
                     <img class="w-[404px] h-[404px]" src="donkey.png" alt="icon-app">
                 </div>
@@ -168,21 +168,21 @@
     </div>
     <div class="">
         <div class="z-1 relative">
-            <img class="w-[1200px] h-[650px] mt-[200px] ml-[160px] rounded-[39px] max-xl:ml-[0px]" src="background1.png" alt="icon-app">
+            <img class="max-sm:h-[400px] w-[1200px] h-[650px] mt-[200px] ml-[160px] rounded-[39px] max-xl:ml-[0px]" src="background1.png" alt="icon-app">
         </div>
-        <div class="flex items-center justify-between mt-[-450px] z-2 relative">
+        <div class="flex max-sm:flex-col max-sm:mt-[-350px] items-center justify-between mt-[-450px] z-2 relative">
             <div class="max-xl:ml-[-150px]">
-                <p class="text-[48px] font-bold ml-[183px]">Connect With Us</p>
+                <p class="max-sm:text-[30px] text-[48px] font-bold ml-[183px]">Connect With Us</p>
             </div>
-            <div class="max-sm:mt-[-100px]">
+            <div class="max-sm:mt-[-100px] max-sm:ml-[50px]">
                 <div class="">
-                    <p class="text-[20px] font-bold mb-[75px] mr-[232px]">Stay updated on the latest menu items and special <br>Pokémon events. Join us and be part of the  Pokémon <br>café community!</p>
+                    <p class="max-sm:text-[11px] max-sm:mt-[120px] max-sm:ml-[30px] max-sm:mr-[0px] text-[20px] font-bold mb-[75px] mr-[232px]">Stay updated on the latest menu items and special <br>Pokémon events. Join us and be part of the Pokémon <br>café community!</p>
                 </div>
-                <div class="flex mr-[70px] max-md:flex-wrap">
+                <div class="max-sm:ml-[30px] flex mr-[70px] max-md:flex-wrap">
                     <div class="max-sm:w-[290px] pl-[15px] pt-[15px] bg-[#173A0A] w-[404px] h-[56px] rounded-[54px] text-[white] mr-[9px]">
                         <input type="type" placeholder="Enter your email">
                     </div>
-                    <button class="max-md:mt-[20px] bg-[#FFBD5A] w-[116px] h-[55px] rounded-[54px] text-[20px] font-bold ">
+                    <button class="max-sm:ml-[20px] max-md:mt-[20px] bg-[#FFBD5A] w-[116px] h-[55px] rounded-[54px] text-[20px] font-bold ">
                         Join
                     </button>
                 </div>
@@ -193,7 +193,7 @@
         <div class="mt-[-130px] ">
             <a class="sm:text-[30px] xl:text-[40px] font-bold ml-[70px] text-white max-xl:ml-[-0px]"> Pokémon café </a>
         </div>
-        <div class="mt-[-130px] text-white ml-[100px]">
+        <div class="max-sm:ml-[20px] mt-[-130px] text-white ml-[100px]">
             <nav>
                 <ul>
                     <li>
